@@ -1,0 +1,27 @@
+.myfont{
+        font-family: 'Courier New', Courier, monospace;
+}
+.myitalics{
+        font-style: italic;
+}
+.homebg{
+        background-image: url(.//img/BYU);
+}
+.li{
+        font-weight: 800;
+}
+.p1{
+        font-size: larger;
+        text-underline-position: below;
+        font-weight: 900;
+}
+.section-heading-upper{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+}
+.cta-inner{
+        color: black;
+}
+.mb-0{
+        color: black;
+}
