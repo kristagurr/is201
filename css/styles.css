@@ -4037,7 +4037,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #0dcaf0;
+
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11290,7 +11290,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/BYU.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/TS\ Crowd.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11339,10 +11339,12 @@ p {
   display: block;
   font-size: 3rem;
   font-weight: 100;
+  text-shadow: 2px 2px 8px #FF0000;
 }
 
 .bg-faded {
-  background-color: #f6e1c5;
+  background-color: peachpuff;
+ 
 }
 
 .btn-xl {
@@ -11355,7 +11357,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: black;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
@@ -11399,12 +11401,17 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: black;
+  opacity: 50%;
 }
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
+  color: black;
+  opacity: 100%;
+  font-weight: 600;
+
 }
 .cta .cta-inner:before {
   border-radius: 0.5rem;
@@ -11419,7 +11426,8 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: black;
+  opacity: 50%;
 }
 
 .intro {
@@ -11491,3 +11499,4 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
