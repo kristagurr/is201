@@ -7360,6 +7360,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  font-size: large;
 }
 
 .mb-1 {
@@ -11339,7 +11340,7 @@ p {
   display: block;
   font-size: 3rem;
   font-weight: 100;
-  text-shadow: 2px 2px 8px #FF0000;
+  text-shadow: 2px 2px 8px purple;
 }
 
 .bg-faded {
@@ -11373,6 +11374,8 @@ p {
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
